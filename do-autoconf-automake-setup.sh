@@ -29,6 +29,11 @@ cat << EOF > Makefile.am
 bin_PROGRAMS = ${appname}
 # A list of source files to use when generating the makefile
 ${appname}_SOURCES = ${sources}
+
+# Add make syntax test target to run our travis tests
+# See https://stackoverflow.com/questions/1500039/adding-additional-make-test-targets-to-an-autotools-project for details
+test: ; @./test.sh 
+.PHONY: test
 EOF
 # See https://www.gnu.org/software/autoconf/manual/autoconf-2.68/html_node/autoreconf-Invocation.html
 # Update configure scripts with verbose, install (add-missing) and force arguments to setup a configure
