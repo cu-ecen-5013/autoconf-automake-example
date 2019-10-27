@@ -1,2 +1,2 @@
 language: c
-script: ./do-autoconf-automake-setup.sh && ./configure && make && make install && make test
+script: ./do-autoconf-automake-setup.sh && ./configure && make && make test
