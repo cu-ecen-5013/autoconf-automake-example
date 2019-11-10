@@ -5,6 +5,7 @@ A project which demonstrates how to use [autoconf](https://www.gnu.org/savannah-
 
 This project is a part of a multi-part series of projects which show you the basics of automatic dependency generation for C projects.  See  also:
  * GNU Make automatic dependency generation: https://github.com/cu-ecen-5013/auto-dependency-generation-example
+ * CMake example : https://github.com/cu-ecen-5013/cmake-example
 
 ## Setting Up Automake
 The steps used to generate automake are automated and annotated in [do-autoconf-automake-setup.sh](do-autoconf-automake-setup.sh).  These instructions are based on an example implementation from http://www.idryman.org/blog/2016/03/14/autoconf-tutorial-2/.  Run with no arguments to generate your `configure` script.
